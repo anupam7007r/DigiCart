@@ -1,5 +1,6 @@
 .navbar {
   width: 100%;
+  position: fixed;
   background-color: #171717;
   display: flex;
   justify-content: space-between;

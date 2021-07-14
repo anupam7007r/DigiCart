@@ -1,6 +1,11 @@
 import "./App.css";
 import { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import * as ReactBootstrap from 'react-bootstrap';
+import Footer from './components/footer';
+
+// material ui
+//import{Button, button} from '@material-ui/core'
 
 // Components
 import Navbar from "./components/Navbar";
@@ -12,13 +17,15 @@ import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 import CartScreen from "./screens/CartScreen";
 
+
 function App() {
   const [sideToggle, setSideToggle] = useState(false);
-
   return (
     <Router>
+
       <Navbar click={() => setSideToggle(true)} />
       <SideDrawer show={sideToggle} click={() => setSideToggle(false)} />
+
       <Backdrop show={sideToggle} click={() => setSideToggle(false)} />
       <main className="app">
         <Switch>
@@ -26,9 +33,12 @@ function App() {
           <Route exact path="/product/:id" component={ProductScreen} />
           <Route exact path="/cart" component={CartScreen} />
         </Switch>
+        <Footer />
       </main>
-    </Router>
-  );
-}
 
-export default App;
+    </Router>
+
+  );
+  };
+
+  export default App;
