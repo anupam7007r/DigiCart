@@ -71,6 +71,7 @@ const products = [
     price: 115990,
     countInStock: 10,
   },
+  
 ];
 
 module.exports = products;

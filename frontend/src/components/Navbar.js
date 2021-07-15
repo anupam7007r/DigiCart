@@ -11,7 +11,7 @@ const Navbar = ({ click }) => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" >
       <div className="navbar__logo">
         <h2>DigiCart</h2>
       </div>
