@@ -19,10 +19,15 @@ import CartScreen from "./screens/CartScreen";
 
 
 function App() {
+  
   const [sideToggle, setSideToggle] = useState(false);
-  return (
-    <Router>
 
+  return (
+
+    <div className="page-container">
+    <div className="content-wrap">
+
+    <Router>
       <Navbar click={() => setSideToggle(true)} />
       <SideDrawer show={sideToggle} click={() => setSideToggle(false)} />
 
@@ -35,8 +40,11 @@ function App() {
         </Switch>
         <Footer />
       </main>
-
+      
     </Router>
+    
+</div>
+    </div>
 
   );
   };

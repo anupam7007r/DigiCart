@@ -26,7 +26,7 @@ const Navbar = ({ click }) => {
           </Link>
         </li>
         <li>
-          <Link to="/">Shop</Link>
+          <Link to="/" className="cart__link">Shop</Link>
         </li>
       </ul>
 

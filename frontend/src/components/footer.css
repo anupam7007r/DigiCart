@@ -1,15 +1,16 @@
-.copyright-area {
+.main-footer {
     width: 100%;
+   bottom: 2;
+    position: absolute;
     background-color:#b34c07;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 1rem ;
+    padding: 1rem 1rem;
     z-index: 50;
-    position: relative;
-    
-    margin-top: 330px ;
-    border-radius: 2px;
+    border-radius: 4px;
+
+   
+  
 
   }
   .container {
@@ -17,7 +18,7 @@
     cursor: pointer;
     /* font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
     align-items: center; */
-    padding: auto;
+    padding: .5rem 1rem;
     width: 100%;
   }
 
@@ -26,7 +27,4 @@
 
   }
 
-  col-lg-6 col-md-6{
-    text-align:right;
-    color: ivory;
-  }
+ 

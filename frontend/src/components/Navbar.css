@@ -1,20 +1,22 @@
 .navbar {
 
   width: 100%;
- 
   background-color: #2b89e0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 1rem;
+  padding: .5rem 2rem;
   z-index: 50;
-  border-radius: 2px;
+  border-radius: 5px;
+ 
 
 }
-
-.navbar__logo h2 {
+.navbar__logo h2:hover {
+  color: #fffb00;
+}
+.navbar__logo h2  {
   
-  color: #f4f4f4;
+  color: #ffffff;
   font-size: 1.4rem;
   cursor: pointer;
 }
@@ -31,7 +33,7 @@
 
 .navbar__links > li > a {
   text-decoration: none;
-  color: #f4f4f4;
+  color: #ffffff;
   font-size: 1.2rem;
   display: flex;
   align-items: center;
@@ -44,14 +46,14 @@
 }
 
 .cart__link {
-  background: #333;
+  background: rgb(84, 162, 226);
   padding: 10px;
   border-radius: 8px;
 }
 
 .cart__link:hover {
-  background: #dd219e;
-  color: #f4f4f4;
+  background: #fff701c9;
+  color: #751414;
 }
 
 .cartlogo__badge {
@@ -66,6 +68,8 @@
   align-items: center;
   font-size: 1rem;
 }
+
+
 
 .hamburger__menu {
   display: none;

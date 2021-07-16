@@ -4,17 +4,27 @@ const Footer = () => {
 
 
     return (
-        <div class="copyright-area">
+        <div class="main-footer">
       <div class="container">
          <div class="row">
-            <div class="col-lg-6 col-md-6">
-               <ul>
-                  <li><a href="privacy">Privacy Policy</a></li>
-                  <li><a href="cookie" >Cookie Policy</a></li>
+
+         <div class="col-lg-6 col-md-6">
+               <ul className="list-unstyled">
+                  <li>Address - Gomti Nagar Lucknow, 226001</li>
+                  <li>Phone - +91 9415444444</li>
                </ul>
             </div>
-            <div class="col-lg-6 col-md-6 text-right">
-              <p> © <script type="text/JavaScript">document.write(new Date().getFullYear());</script>2021. All rights reserved to DiGiCart Solutions Ltd.</p>
+
+            <hr />
+
+            <div class="col-md-10">
+              <p> <script type="text/JavaScript">document.write(new Date().getFullYear());</script>Policies: Returns | Policy | Terms of use | Security | Privacy | Infringement 
+
+              &emsp;
+              &emsp;
+              &emsp;
+            
+              © 2021-2022 Digicart.com</p>
             </div>
          </div>
       </div>
