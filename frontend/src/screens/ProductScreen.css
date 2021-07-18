@@ -7,6 +7,7 @@
 .productscreen__left {
   display: flex;
   flex: 0.8;
+  font-weight: 500;
 }
 
 .left__image {
@@ -31,6 +32,12 @@
 .right__info > p {
   padding: 1rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  
+}
+
+.rupa{
+  font-weight: 900;
+
 }
 
 .left__info > p:last-child,
@@ -45,8 +52,10 @@
 .right__info {
   width: 250px;
   margin: 1rem;
-  background: #fff;
+  background: rgba(150, 236, 157, 0.808);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  font-weight: bold;
 }
 
 .right__info p {
@@ -60,11 +69,22 @@
   grid-column: 1/-1;
   width: 100%;
   padding: 10px 16px;
-  background: #171717;
-  color: #f4f4f4;
-  border: 1px solid #171717;
+  background: #fcfcfcc0;
+  color: #000000;
+  border: 1px solid #f3f3f381;
   cursor: pointer;
   border-radius: 5px;
+  font-weight: bold;
+}
+
+.right__info p > button:hover{
+  color:rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.514);
+}
+.qty_color{
+   background-color: #fcfcfcc0;
+   color: rgb(55, 0, 255);
+   border-color: #fcfcfcc0;
 }
 
 .right__info select {

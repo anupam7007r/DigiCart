@@ -9,12 +9,12 @@ const products = [
     countInStock: 15,
   },
   {
-    name: "OnePlus 9 Pro 5G ",
+    name: "New Apple iPhone 12 Mini (64GB) - Purple ",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/71E%2BAgYDKtL._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/71hVxI-Ed-S._SL1500_.jpg",
     description:
-      "Co-Developed by Hasselblad, 48 MP Main camera, 50 MP Ultra Wide Angle Camera with Sensor size of 1/1.56'', 8 MP Telepoto Lens, 2 MP Monochorme Lens,16 MP Front Camera Qualcomm Snapdragon 888 with Adreno 660 GPU 6.7 Inches 120Hz Fluid AMOLED Display  Oxygen OS based on Andriod 11",
-    price: 69999.00,
+      "5.4-inch (13.7 cm diagonal) Super Retina XDR display Ceramic Shield tougher than any smartphone glass A14 Bionic chip the fastest chip ever in a smartphone Advanced dual-camera system with 12MP Ultra Wide and Wide cameras Night mode Deep Fusion Smart HDR 3, 4K Dolby Vision HDR recording, 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording Industry-leading IP68 water resistance Supports MagSafe accessories for easy attachment and faster wireless charging iOS with redesigned widgets on the Home screen, all-new App Library, App Clips and more",
+    price: 66400.00,
     countInStock: 10,
   },
   {
@@ -45,32 +45,59 @@ const products = [
     countInStock: 15,
   },
   {
-    name: "Vivo V20",
+    name: "New Apple iPhone 12 Pro Max (128GB) - Gold",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/6100jtBoV8L._SL1200_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/71fJ-gmBZtL._SL1500_.jpg",
     description:
-      "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.36 cm (6.44 inch) Full HD+ Display 64MP + 8MP + 2MP | 44MP Front Camera 4000 mAh Lithium-ion Battery Qualcomm Snapdragon 720G Processor",
-    price: 25000,
+      "6.7-inch (17 cm diagonal) Super Retina XDR display, Ceramic Shield, tougher than any smartphone glass, A14 Bionic chip, the fastest chip ever in a smartphone, Pro camera system with 12MP Ultra Wide, Wide and Telephoto cameras; 5x optical zoom range; Night mode, Deep Fusion, Smart HDR 3, Apple ProRAW, 4K Dolby Vision HDR recording, LiDAR Scanner for improved AR experiences, Night mode portraits, 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording, Industry-leading IP68 water resistance, Supports MagSafe accessories for easy attach and faster wireless charging, iOS with redesigned widgets on the Home screen, all-new App Library, App Clips and more",
+    price: 126000,
     countInStock: 10,
   },
   {
-    name: "OnePlus Nord CE 5G",
+    name: "Apple Lightning to 3.5mm Audio Cable (1.2m) - White",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61iy2Ru9KdS._SL1500_.jpg",
+      "https://www.mytrendyphone.eu/images2/Apple-MMX62ZM-A-Lightning-to-3.5mm-Adapter-12092016-01-p.jpg",
     description:
-      "64MP+8MP+2MP triple rear camera with 1080p video at 30/60 fps, 4k 30 fps | 16MP front camera with 1080p video at 30/60 fps. 6.43-inch, 90Hz fluid AMOLED display with 2400 x 1080 pixels resolution | 410ppi Memory, Storage & SIM: 8GB RAM | 128GB internal memory on UFS 2.1 storage system. Dual SIM (nano + nano) | OnePlus Nord CE currently supports dual 4G SIM Cards or a single 5G SIM + 4G SIM., Chipset: Qualcomm Snapdragon 750G 5G mobile platform with an octa-core processor, Kryo 570 CPU (20% improvement from predecessor), and an Adreno 619 GPU (10% improved graphics performance from predecessor). , Alexa Hands-Free capable: Download the Alexa app to use Alexa hands-free. Play music, make calls, hear news, open apps, navigate, and more, all using just your voice, while on-the-go.",
-    price: 24999,
+      "Connect your AirPods Max or Beats Solo Pro headphones to the audio-out port on an airplane, iPhone, iPad, Mac, or other device. Connect your iOS or iPadOS device to the audio-in port on your car stereo or other speaker. This cable allows you to connect your AirPods Max or Beats Solo Pro headphones to 3.5 mm audio ports. It can also connect your iOS or iPadOS device to 3.5 mm audio ports.",
+    price: 3500,
     countInStock: 10,
   },
   {
-    name: "Samsung S21 Ultra 5G",
+    name: "Apple AirPods with Wireless Charging Case",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/81kfA-GtWwL._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/71IPFP9WJIL._SL1500_.jpg",
     description:
-      "Quad rear camera setup- Main Camera 108MP + Ultra Wide 12MP Dual Pixel Camera + Tele1 3X 10MP Dual Pixel Camera + Tele2 10x 10MP Dual pixel camera | 40MP front facing camera (6.8-inch) Dynamic AMOLED 2X Display, WQHD+ resolution with 3200 X 1440 pixels resolution, 515 PPI with 16M colours 12GB RAM | 256GB internal Storage | Dual SIM (nano+nano) dual-standby (5G+5G)",
-    price: 115990,
+      "Automatically on, automatically connected, Easy setup for all your Apple devices, Quick access to Siri by saying “Hey Siri”, Double-tap to play or skip forward, New Apple H1 headphone chip delivers faster wireless connection to your devices, Charges quickly in the case, Case can be charged either wirelessly using a Qi-compatible charging mat or using the Lightning connector, Rich, high-quality audio and voice, Listen and talk all day with multiple charges from the Charging Case",
+    price: 16999,
     countInStock: 10,
   },
+
+  {
+    name: "Apple Silicone Case with MagSafe (for iPhone 12 Mini) - Black",
+    imageUrl:
+      "https://images-na.ssl-images-amazon.com/images/I/61nXS-k8nqL._SL1500_.jpg",
+    description:
+      "The silky, soft-touch finish of the silicone exterior feels great in your hand. And on the inside, there’s a soft microfiber lining for even more protection. With built-in magnets that align perfectly with iPhone 12 | 12 Pro, the case offers a magical attach and detach experience, every time. The perfectly aligned magnets make wireless charging faster and easier than ever before. And when it’s time to charge, just leave the case on your iPhone and snap on your MagSafe charger, or set it on your Qi-certified charger. Like every Apple-designed case, it undergoes thousands of hours of testing throughout the design and manufacturing process. So not only does it look great, it’s built to protect your iPhone from scratches and drops. Compatibility: iPhone 12 mini",
+    price: 1599,
+    countInStock: 10,
+  },
+
+  {
+    name: "Apple MacBook Air - Space Grey",
+    imageUrl:
+      "https://images-na.ssl-images-amazon.com/images/I/71jG%2Be7roXL._SL1500_.jpg",
+    description:
+      "Apple-designed M1 chip for a giant leap in CPU, GPU, and machine learning performance, Go longer than ever with up to 18 hours of battery life, 8-core CPU delivers up to 3.5x faster performance to tackle projects faster than ever, Up to eight GPU cores with up to 5x faster graphics for graphics-intensive apps and games, 16-core Neural Engine for advanced machine learning, 8GB of unified memory so everything you do is fast and fluid, Superfast SSD storage launches apps and opens files in an instant",
+    price: 92900,
+    countInStock: 10,
+  },
+
+
+  
+
+
+
+  
 ];
 
 module.exports = products;
