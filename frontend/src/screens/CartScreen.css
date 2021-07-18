@@ -18,15 +18,15 @@
 
 .cartscreen__right {
   flex: 0.3;
-  background: #fff;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  background: rgba(150, 236, 157, 0.808);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.541);
   height: fit-content;
   border-radius: 4px;
   margin: 20px;
 }
 
 .cartscreen__right div {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.253);
   padding: 1rem;
 }
 
@@ -45,16 +45,22 @@
 .cartscreen__right div button {
   padding: 10px 17px;
   width: 100%;
-  background: #171717;
-  color: #f4f4f4;
-  border: 1px solid #171717;
+  background: rgba(255, 255, 255, 0.973);
+  color: #000000;
+  border: 1px solid rgba(255, 210, 210, 0.61);
   cursor: pointer;
 }
 
 .cartscreen__right div button:hover {
   opacity: 0.9;
-}
+  color:rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.808);
 
+}
+.rupay{
+  color:rgb(35, 89, 236);
+  font-weight: bold;
+}
 @media (max-width: 1320px) {
   .cartscreen {
     max-width: 900px;

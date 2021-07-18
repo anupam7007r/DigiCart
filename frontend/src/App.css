@@ -1,3 +1,6 @@
+
+  
+
 .app {
   height: 80vh;
 
@@ -15,9 +18,10 @@
 
 .content-wrap{
   flex: 1;
-  /* background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,167,129,1) 0%, rgba(55,226,95,1) 100%, rgba(0,212,255,1) 100%); */
   padding: 15px 5px ; 
+  margin: 100;
 
- 
+  
+    background-color:ivory;
+  
 }

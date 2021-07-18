@@ -23,11 +23,16 @@
 .product__info > p {
   margin-bottom: 8px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.info__name{
+  margin-top: 30px;
+  
 }
 
 .info__price {
   font-weight: bold;
-  color: red;
+  color: rgb(0, 0, 0);
 }
 
 .info__name {
@@ -46,14 +51,14 @@
   color: #171717;
   width: 100%;
   padding: 8px 16px;
-  background-color: rgba(255, 255, 255, 0.575);
-  border: 1px solid #171717;
+  background-color: rgba(107, 241, 186, 0.575);
+  border: 1px solid #00ff6259;
   font-size: 1rem;
 }
 
 .info__button:hover {
-  background: #ddeb1dd7;
-  color: #1a0000;
+  background: #006effd7;
+  color: #ffffff;
 }
 
 @media (max-width: 1232px) {

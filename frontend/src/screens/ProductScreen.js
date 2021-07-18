@@ -38,10 +38,11 @@ const ProductScreen = ({ match, history }) => {
             </div>
             <div className="left__info">
               <p className="left__name">{product.name}</p>
-              <p>Price: ₹{product.price}</p>
+              <p className="rupa">Price: ₹{product.price}</p>
               <p>Description: {product.description}</p>
             </div>
           </div>
+
           <div className="productscreen__right">
             <div className="right__info">
               <p>
@@ -56,7 +57,7 @@ const ProductScreen = ({ match, history }) => {
               </p>
               <p>
                 Qty
-                <select value={qty} onChange={(e) => setQty(e.target.value)}>
+                <select className="qty_color" value={qty} onChange={(e) => setQty(e.target.value)}>
                   {[...Array(product.countInStock).keys()].map((x) => (
                     <option key={x + 1} value={x + 1}>
                       {x + 1}

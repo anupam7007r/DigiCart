@@ -23,6 +23,8 @@ const Footer = () => {
               &emsp;
               &emsp;
               &emsp;
+              &emsp;
+              &emsp;
             
               © 2021-2022 Digicart.com</p>
             </div>
