@@ -13,7 +13,8 @@ const Navbar = ({ click }) => {
   return (
     <nav className="navbar">
       <div className="navbar__logo">
-        <h2>DigiCart</h2>
+        <h2>
+        <Link to="/"></Link>DigiCart</h2>
       </div>
 
       <ul className="navbar__links">

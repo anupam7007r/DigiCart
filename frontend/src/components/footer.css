@@ -1,23 +1,32 @@
-.text-center {
-    width: 100%;
-    background-color: #171717;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem ;
-    z-index: 50;
-    position: relative;
-    bottom: auto;
-  }
-  .footer-01-col-md {
-    color: #f4f4f4;
-    cursor: pointer;
-    /* font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    align-items: center; */
-    padding: auto;
-    width: 100%;
-  }
-  .footer-01-col-md h2{
-    font-size: 1.4rem;
+.copyright-area {
+  width: 100%;
+  background-color:#b34c07;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem ;
+  z-index: 50;
+  position: relative;
+  
+  margin-top: 330px ;
+  border-radius: 2px;
 
-  }
+}
+.container {
+  color: #f4f4f4;
+  cursor: pointer;
+  /* font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  align-items: center; */
+  padding: auto;
+  width: 100%;
+}
+
+.row{
+  font-size: 1rem;
+
+}
+
+col-lg-6 col-md-6{
+  text-align:right;
+  color: ivory;
+}
