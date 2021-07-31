@@ -22,7 +22,7 @@ const Register = () => {
             body: JSON.stringify(values)
         }
 
-        fetch(url + '/user/add', reqOptions)
+        fetch(url + '/api/user/add', reqOptions)
             .then((res) => { res.json() })
             .then((data) => { console.log(data) });
 
