@@ -1,4 +1,4 @@
-import './myregister.css';
+
 import { Formik } from 'formik';
 import app_config from '../config';
 
@@ -22,14 +22,11 @@ const Register = () => {
             body: JSON.stringify(values)
         }
 
-        fetch(url + '/api/user/add', reqOptions)
+        fetch(url + '/user/add', reqOptions)
             .then((res) => { res.json() })
             .then((data) => { console.log(data) });
 
     }
-
-
-    
 
     return (
         <div className="col-md-10">
@@ -59,7 +56,6 @@ const Register = () => {
                                 <input type="number" className="form-control" name="age" onChange={handleChange} />
 
 
-                        
 
                                 <button type="submit" className="btn btn-primary w-100 mt-5">Submit</button>
 

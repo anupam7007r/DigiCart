@@ -21,7 +21,17 @@ const Footer = () => {
             <hr />
 
             <div class="col-md-10">
-              <p> <script type="text/JavaScript">document.write(new Date().getFullYear());</script>Policies: Returns | Policy | Terms of use | Security | Privacy | Infringement 
+              <p> <script type="text/JavaScript">document.write(new Date().getFullYear());
+              
+              </script>
+              
+              Policies: 
+              Returns |
+              Policy | 
+              Terms of use | 
+              Security | 
+              Privacy | 
+              Infringement 
 
               &emsp;
               &emsp;

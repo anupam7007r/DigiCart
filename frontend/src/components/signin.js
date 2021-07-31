@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import app_config from '../config';
-import './signin.css';
 
 const Login = () => {
 
